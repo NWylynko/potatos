@@ -8,10 +8,8 @@ export default function App() {
 
   // current game from list
   
-  const [cookies, setCookie, removeCookie] = useCookies(['game_meta']);
+  const [cookies, setCookie] = useCookies(['game_meta']);
   const [cg_id, set_cg] = React.useState(cookies.id)
-
-  console.log(cg_id)
 
   /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
@@ -36,7 +34,7 @@ toggle between hiding and showing the dropdown content */
   const range = n => [...Array(n).keys()]
 
   const dropdownlist = range(15).map((item) =>
-  <div style={{flexDirection: 'row'}}>
+  <div key={cg_id * item} style={{flexDirection: 'row'}}>
     <Select setCookie={setCookie} set_cg={set_cg} item={item} list={list} offset={0} />
     <Select setCookie={setCookie} set_cg={set_cg} item={item} list={list} offset={1} />
     <Select setCookie={setCookie} set_cg={set_cg} item={item} list={list} offset={2} />
@@ -91,7 +89,7 @@ function Select({setCookie, set_cg, item, list, offset}) {
 
   if (list[id]) {
     return (
-      <button key={id} onClick={() => {setCookie('id', id); set_cg(id); }}>{list[id].name}</button>
+      <button onClick={() => {setCookie('id', id); set_cg(id); }}>{list[id].name}</button>
     )
   } else {
     return (null)
