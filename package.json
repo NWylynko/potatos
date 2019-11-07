@@ -1,6 +1,6 @@
 {
   "name": "potato",
-  "version": "0.1.0",
+  "version": "0.5.0",
   "private": true,
   "dependencies": {
     "react": "^16.11.0",
@@ -10,9 +10,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "postbuild": "mv build ./docs/",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "firebase deploy --only hosting:boringmaths"
   },
   "eslintConfig": {
     "extends": "react-app"
