@@ -2,10 +2,14 @@ import React from 'react';
 import './App.css';
 import { games, list } from './games';
 
+import { useCookies } from 'react-cookie';
+
 export default function App() {
 
   // current game from list
-  const [cg_id, set_cg] = React.useState()
+  
+  const [cookies, setCookie, removeCookie] = useCookies(['game_meta']);
+  const [cg_id, set_cg] = React.useState(cookies.id)
 
   console.log(cg_id)
 
@@ -31,13 +35,14 @@ toggle between hiding and showing the dropdown content */
 
   const range = n => [...Array(n).keys()]
 
-  const dropdownlist = range(14).map((item) =>
+  const dropdownlist = range(15).map((item) =>
   <div style={{flexDirection: 'row'}}>
-    <button onClick={() => {set_cg(item * 5 + 0)}}>{list[item * 5 + 0].name}</button>
-    <button onClick={() => {set_cg(item * 5 + 1)}}>{list[item * 5 + 1].name}</button>
-    <button onClick={() => {set_cg(item * 5 + 2)}}>{list[item * 5 + 2].name}</button>
-    <button onClick={() => {set_cg(item * 5 + 3)}}>{list[item * 5 + 3].name}</button>
-    <button onClick={() => {set_cg(item * 5 + 4)}}>{list[item * 5 + 4].name}</button>
+    <Select setCookie={setCookie} set_cg={set_cg} item={item} list={list} offset={0} />
+    <Select setCookie={setCookie} set_cg={set_cg} item={item} list={list} offset={1} />
+    <Select setCookie={setCookie} set_cg={set_cg} item={item} list={list} offset={2} />
+    <Select setCookie={setCookie} set_cg={set_cg} item={item} list={list} offset={3} />
+    <Select setCookie={setCookie} set_cg={set_cg} item={item} list={list} offset={4} />
+    <Select setCookie={setCookie} set_cg={set_cg} item={item} list={list} offset={5} />
   </div>
     
   );
@@ -74,6 +79,19 @@ function Game({game}) {
         <param name="hasPriority" value="true" />
         <param value="internal" name="allownetworking" />
       </object>
+    )
+  } else {
+    return (null)
+  }
+}
+
+function Select({setCookie, set_cg, item, list, offset}) {
+
+  const id = item * 5 + offset
+
+  if (list[id]) {
+    return (
+      <button key={id} onClick={() => {setCookie('id', id); set_cg(id); }}>{list[id].name}</button>
     )
   } else {
     return (null)

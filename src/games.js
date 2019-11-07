@@ -309,7 +309,7 @@ export const list = [{
     game: "raze2"
   },
   {
-    name: "run3online",
+    name: "run 3",
     game: "run3online"
   },
   {
@@ -440,5 +440,4 @@ export const list = [{
     name: "strikeforceheroes2",
     game: "strikeforceheroes2"
   }
-
 ]
