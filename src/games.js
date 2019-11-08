@@ -1,76 +1,77 @@
-import papaspancakeria from "./swf/papaspancakeria.swf";
-import warfare19172267 from "./swf/warfare-1917-2267.swf";
-import bloonstowerdefense5 from "./swf/bloons-tower-defense-5.swf";
-import tetris from "./swf/tetris.swf";
-import monopoly2 from "./swf/monopoly2.swf";
-import papasscooperia_v102 from "./swf/papasscooperia_v102.swf";
-import papassushiria from "./swf/papassushiria.swf";
-import caribbeanadmiral from "./swf/caribbeanadmiral.swf";
-import papasburgeria from "./swf/papasburgeria.swf";
-import bubbletanks2 from "./swf/BubbleTanks2.swf";
-import papaspizzeria_v2 from "./swf/papaspizzeria_v2.swf";
-import ptd3 from "./swf/ptd3.swf";
-import bubble_tanks from "./swf/bubble_tanks.swf";
-import pokemontowerdefense2 from "./swf/PokemonTowerDefense2.swf";
-import papalouie_v2 from "./swf/papalouie_v2.swf";
-import supermario63 from "./swf/SuperMario63.swf";
-import oneononehockey from "./swf/one-on-one-hockey.swf";
-import papashotdoggeria from "./swf/papashotdoggeria.swf";
-import airportmadness4 from "./swf/airport-madness-4.swf";
-import learntofly3 from "./swf/learn-to-fly-3.swf";
-import civilizationswars from "./swf/civilizations-wars.swf";
-import papasfreezeria from "./swf/papasfreezeria.swf";
-import sportsheadsbasketballchampionship from "./swf/sports-heads-basketball-championship.swf";
-import jacksmith from "./swf/jacksmith.swf";
-import feudalismii2581 from "./swf/feudalism-ii-2581.swf";
-import civilizationswars2prime from "./swf/civilizations-wars-2-prime.swf";
-import bloonstowerdefence3 from "./swf/bloons-tower-defence-3.swf";
-import pvz from "./swf/pvz.swf";
-import monopoly from "./swf/monopoly.swf";
-import smc from "./swf/smc.swf";
-import worldwars2 from "./swf/world-wars-2.swf";
-import learntofly2 from "./swf/learn-to-fly-2.swf";
-import snake from "./swf/snake.swf";
-import gba from "./swf/gba.swf";
-import nesbox from "./swf/Nesbox.swf";
-import tboi from "./swf/tboi.swf";
-import dinorun from "./swf/dino-run.swf";
-import papasdonuteria from "./swf/papasdonuteria.swf";
-import flight from "./swf/flight.swf";
-import raze2 from "./swf/raze2.swf";
-import run3online from "./swf/run3online.swf";
-import raze from "./swf/Raze.swf";
-import chess from "./swf/Chess.swf";
-import stickwar214346 from "./swf/stick-war-2-14346.swf";
-import oneononesoccer from "./swf/one-on-one-soccer.swf";
-import papaswingeria from "./swf/papaswingeria.swf";
-import papascheeseria_102 from "./swf/papascheeseria_102.swf";
-import gb from "./swf/gb.swf";
-import motox3m1 from "./swf/moto-x3m-1.swf";
-import papaspastaria from "./swf/papaspastaria.swf";
-import sega from "./swf/sega.swf";
-import nes from "./swf/nes.swf";
-import feudalism2 from "./swf/feudalism-2.swf";
-import papastacomia from "./swf/papastacomia.swf";
-import kgrmzuot4z from "./swf/kgrMZuOt4z.swf";
-import bubbletankstowerdefense from "./swf/bubble-tanks-tower-defense.swf";
-import dl3 from "./swf/dl3.swf";
-import tt2 from "./swf/tt2.swf";
-import superfightersgame from "./swf/superfighters-game.swf";
-import gunmayhem2morema13824 from "./swf/gun-mayhem-2-more-ma-13824.swf";
-import awesome_tanks_2 from "./swf/awesome_tanks_2.swf";
-import papascupcakeria from "./swf/papascupcakeria.swf";
-import bt2h from "./swf/bt2h.swf";
-import btd5dat from "./swf/btd5-dat.swf";
-import btd5hacked from "./swf/btd5hacked.swf";
-import hexempire from "./swf/hex-empire.swf";
-import oneononefootball from "./swf/one-on-one-football.swf";
-import papasbakeria from "./swf/papasbakeria.swf";
-import sushicat from "./swf/SushiCat.swf";
-import battleship from "./swf/Battleship.swf";
-import snes from "./swf/snes.swf";
-import aquaboy from "./swf/aqua-boy.swf";
-import strikeforceheroes2 from "./swf/Strike Force Heroes 2.swf";
+const URL = "https://github.com/NWylynko/potatos/raw/master/src/swf/"
+import papaspancakeria from URL + "papaspancakeria.swf";
+import warfare19172267 from URL + "warfare-1917-2267.swf";
+import bloonstowerdefense5 from URL + "bloons-tower-defense-5.swf";
+import tetris from URL + "tetris.swf";
+import monopoly2 from URL + "monopoly2.swf";
+import papasscooperia_v102 from URL + "papasscooperia_v102.swf";
+import papassushiria from URL + "papassushiria.swf";
+import caribbeanadmiral from URL + "caribbeanadmiral.swf";  
+import papasburgeria from URL + "papasburgeria.swf";
+import bubbletanks2 from URL + "BubbleTanks2.swf";
+import papaspizzeria_v2 from URL + "papaspizzeria_v2.swf";
+import ptd3 from URL + "ptd3.swf";
+import bubble_tanks from URL + "bubble_tanks.swf";
+import pokemontowerdefense2 from URL + "PokemonTowerDefense2.swf";
+import papalouie_v2 from URL + "papalouie_v2.swf";
+import supermario63 from URL + "SuperMario63.swf";
+import oneononehockey from URL + "one-on-one-hockey.swf";
+import papashotdoggeria from URL + "papashotdoggeria.swf";
+import airportmadness4 from URL + "airport-madness-4.swf";
+import learntofly3 from URL + "learn-to-fly-3.swf";
+import civilizationswars from URL + "civilizations-wars.swf";
+import papasfreezeria from URL + "papasfreezeria.swf";
+import sportsheadsbasketballchampionship from URL + "sports-heads-basketball-championship.swf";
+import jacksmith from URL + "jacksmith.swf";
+import feudalismii2581 from URL + "feudalism-ii-2581.swf";
+import civilizationswars2prime from URL + "civilizations-wars-2-prime.swf";
+import bloonstowerdefence3 from URL + "bloons-tower-defence-3.swf";
+import pvz from URL + "pvz.swf";
+import monopoly from URL + "monopoly.swf";
+import smc from URL + "smc.swf";
+import worldwars2 from URL + "world-wars-2.swf";
+import learntofly2 from URL + "learn-to-fly-2.swf";
+import snake from URL + "snake.swf";
+import gba from URL + "gba.swf";
+import nesbox from URL + "Nesbox.swf";
+import tboi from URL + "tboi.swf";
+import dinorun from URL + "dino-run.swf";
+import papasdonuteria from URL + "papasdonuteria.swf";
+import flight from URL + "flight.swf";
+import raze2 from URL + "raze2.swf";
+import run3online from URL + "run3online.swf";
+import raze from URL + "Raze.swf";
+import chess from URL + "Chess.swf";
+import stickwar214346 from URL + "stick-war-2-14346.swf";
+import oneononesoccer from URL + "one-on-one-soccer.swf";
+import papaswingeria from URL + "papaswingeria.swf";
+import papascheeseria_102 from URL + "papascheeseria_102.swf";
+import gb from URL + "gb.swf";
+import motox3m1 from URL + "moto-x3m-1.swf";
+import papaspastaria from URL + "papaspastaria.swf";
+import sega from URL + "sega.swf";
+import nes from URL + "nes.swf";
+import feudalism2 from URL + "feudalism-2.swf";
+import papastacomia from URL + "papastacomia.swf";
+import kgrmzuot4z from URL + "kgrMZuOt4z.swf";
+import bubbletankstowerdefense from URL + "bubble-tanks-tower-defense.swf";
+import dl3 from URL + "dl3.swf";
+import tt2 from URL + "tt2.swf";
+import superfightersgame from URL + "superfighters-game.swf";
+import gunmayhem2morema13824 from URL + "gun-mayhem-2-more-ma-13824.swf";
+import awesome_tanks_2 from URL + "awesome_tanks_2.swf";
+import papascupcakeria from URL + "papascupcakeria.swf";
+import bt2h from URL + "bt2h.swf";
+import btd5dat from URL + "btd5-dat.swf";
+import btd5hacked from URL + "btd5hacked.swf";
+import hexempire from URL + "hex-empire.swf";
+import oneononefootball from URL + "one-on-one-football.swf";
+import papasbakeria from URL + "papasbakeria.swf";
+import sushicat from URL + "SushiCat.swf";
+import battleship from URL + "Battleship.swf";
+import snes from URL + "snes.swf";
+import aquaboy from URL + "aqua-boy.swf";
+import strikeforceheroes2 from URL + "Strike Force Heroes 2.swf";
 
 export const games = {
   papaspancakeria,
@@ -149,47 +150,47 @@ export const games = {
 }
 
 export const list = [{
-    name: "papaspancakeria",
+    name: "Papas Pancakeria",
     game: "papaspancakeria"
   },
   {
-    name: "warfare19172267",
+    name: "Warfare",
     game: "warfare19172267"
   },
   {
-    name: "bloonstowerdefense5",
+    name: "Bloons TD 5",
     game: "bloonstowerdefense5"
   },
   {
-    name: "tetris",
+    name: "Tetris",
     game: "tetris"
   },
   {
-    name: "monopoly2",
+    name: "Monopoly 2",
     game: "monopoly2"
   },
   {
-    name: "papasscooperia_v102",
+    name: "Papas Scooperia",
     game: "papasscooperia_v102"
   },
   {
-    name: "papassushiria",
+    name: "Papas Sushiria",
     game: "papassushiria"
   },
   {
-    name: "caribbeanadmiral",
+    name: "Caribbean Admiral",
     game: "caribbeanadmiral"
   },
   {
-    name: "papasburgeria",
+    name: "Papas Burgeria",
     game: "papasburgeria"
   },
   {
-    name: "bubbletanks2",
+    name: "Bubble Tanks 2",
     game: "bubbletanks2"
   },
   {
-    name: "papaspizzeria_v2",
+    name: "Papas Pizzeria 2",
     game: "papaspizzeria_v2"
   },
   {
